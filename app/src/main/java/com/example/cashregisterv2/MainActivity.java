@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
     //============================================================================================
     private void setListData() {
-        // ⚡ OPTIMIZATION: Data is initialized automatically inside MyApp onCreate now!
+        // Data is initialized automatically inside MyApp onCreate
         MyApp app = (MyApp) getApplication();
         stockList = app.getProductList();
 
